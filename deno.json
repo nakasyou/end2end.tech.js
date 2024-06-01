@@ -1,0 +1,11 @@
+{
+    "name": "@ns/end2end-tech",
+    "version": "0.1.0",
+    "exports": {
+      ".": "./main.ts"
+    },
+    "fmt": {
+        "semiColons": false,
+        "singleQuote": true
+    }
+}
