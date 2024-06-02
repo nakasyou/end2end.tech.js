@@ -92,6 +92,7 @@ export const upload: UploadFunction = async (
 
   const json = await fetch('https://api.end2end.tech/upload', {
     body: data,
+    method: 'POST'
   }).then((res) => res.json())
 
   if ('Error' in json) {
